@@ -55,7 +55,6 @@ router.put('/:id', async (req, res) => {
       where: {
         id: req.params.id
       }
-      // TODO: Add a sequelize literal to get a count of short books
 
     });
 
