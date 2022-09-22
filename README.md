@@ -5,9 +5,9 @@
 ## Description
 
 ```md
-AS A business owner
-I WANT to be able to view and manage the departments, roles, and employees in my company
-SO THAT I can organize and plan my business
+AS A manager at an internet retail company
+I WANT a back end for my e-commerce website that uses the latest technologies
+SO THAT my company can compete with other e-commerce companies
 ```
 
 ## Table of Contents
@@ -19,15 +19,17 @@ SO THAT I can organize and plan my business
 
 ## Installation
 
-The first step is to get into mysql. Then you want to SOURCE the schema and seeds file (in that order). You can go into the main branch now and run npm start. This will start the application in your console and you'll be able to answer the prompts to fill out/display the tables.
+The first step is to get into mysql. Then you want to SOURCE the schema and then run nppm run seed in the db folder (in that order). You can go into the main branch now and run npm start. This will start the application so you can go into insomnia to use the different commands (PUT, POST, DELETE, and GET).
 
 ## Usage
 
 Follow steps for installation and follows prompts to your desire
 
-![Screenshot of site](./images/screenshot-emplist.png)
+![Screenshot of site](./images/screen-shot-ORM.png)
 
-[Screen recording of using file](https://drive.google.com/file/d/1PGJ_1JM-ED4bz-BV3j6UuUFvd0t3kAOx/view?usp=sharing "Screen recording of using file")
+[Screen recording of using GET](https://drive.google.com/file/d/10ujIH6u5udVX_3fxOWWuXWH7LAhmZBJL/view?usp=sharing "Screen recording of using file")
+
+[Screen recording of using POST, PUT, and DELETE](https://drive.google.com/file/d/15x6WOFQTAJDfb4N8E6Lg_69tczEXfdOV/view?usp=sharing "Screen recording of using file")
 
 ## License
 
